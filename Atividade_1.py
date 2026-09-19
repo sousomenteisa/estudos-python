@@ -6,8 +6,8 @@ soma_teste = 5 + 5
 print(soma_teste)
 
 #Atribua duas variáveis e imprima elas
-nome = "Pereira Caldas Fernandes"
-cidade_natal = "Brasília DF"
+nome = "Nome Modelo"
+cidade_natal = "Curitiba/PR"
 
 #imprima duas váriaveis e imprima elas em uma frase 
 apresentacao = f'meu nome é {nome} e sou nascida em {cidade_natal}'
