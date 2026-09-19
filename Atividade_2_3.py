@@ -13,7 +13,8 @@ def levantamento_vendas(lista_vendas):
       ticket_medio = faturamento_bruto/numero_vendas
       return f"foram realizadas um total de {numero_vendas}, com um faturamento bruto de {faturamento_bruto} e tiket médio de {ticket_medio}"
 
-registro_vendas_lote_1 = registro(1) #você deve registrar a quantidade de vendas realizadas
+registro_vendas = input("Bem vindo ao sistema de registro de vendas, você deve registrar a quantidade de vendas realizadas")
+registro_vendas_lote_1 = registro(registro_vendas) #você deve registrar a quantidade de vendas realizadas
 vendas_realizadas = levantamento_vendas(registro_vendas_lote_1)
 print(vendas_realizadas)
 
